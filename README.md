@@ -5,8 +5,8 @@ a very simple header remover , designed only for Dr.Ding's version, COMP30027ML,
 -> Place COMP30027 PDFs which you want to remove headers into the ```.\in``` folder ->\
 -> check and install the dependencies ->\
 -> Run ```headerRemover.py```,\
- <br />Alternatively, you may specify customised input and output folder, preceded by ```-ipath``` and ```-opath``` flags:\
- <br />e.g. ```headerRemover.py -ipath myInputFolder -opath myOutputFolder``` ->\
+__ Alternatively, you may specify customised input and output folder, preceded by ```-ipath``` and ```-opath``` flags:\
+__ e.g. ```headerRemover.py -ipath myInputFolder -opath myOutputFolder``` ->\
 -> Wait till the program finishes ->\
 -> Locate the postprocess PDFs in ```.\out ``` or output folder you specified.
 
