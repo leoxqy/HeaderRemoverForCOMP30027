@@ -14,3 +14,4 @@ pip install pillow
 pip install pathlib
 pip install pdf2image
 ```
+by Léo Xinqi Yu
