@@ -58,19 +58,24 @@ def convert(target_img, oPath,i):
 
 if __name__ == "__main__":
 
-    op = parse_args()
-    if not (op.in_folder and op.out_folder):
-        print("Missing args - Remember to enter in and out folder : headerRemover.py -ipath path_to_input_folder -opath path_to_output_folder ")
-        exit()
+    curr_dir = os.path.abspath(Path(__file__).parent)
+    home_path = Path(curr_dir)
+    print("curr path: ",  home_path)
+    iPath = Path(home_path) / "in"
+    oPath = Path(home_path) / "out"
 
-    iPath = op.in_folder
-    oPath = op.out_folder
+    op = parse_args()
+    if (op.in_folder and op.out_folder):
+        print("Using default dirs")
+        print("To customise in/output folder, use: headerRemover.py -ipath path_to_input_folder -opath path_to_output_folder ")
+        iPath = op.in_folder
+        oPath = op.out_folder
+        iPath = Path(iPath)
+        oPath = Path(oPath)
     
     # get all potentially existing input files
     filelist = os.listdir(iPath)
     pdfs = []
-    iPath = Path(iPath)
-    oPath = Path(oPath)
     pdfIdx = 0
     for f in filelist:
         if f.endswith(".pdf"):
