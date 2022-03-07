@@ -1,4 +1,4 @@
-# HeaderRemover For COMP30027
+# HeaderRemover for COMP30027
 a very simple header remover , designed only for slides COMP30027ML, UOM 2022-SEM1
 
 ### use:
