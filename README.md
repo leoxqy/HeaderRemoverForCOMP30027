@@ -1,5 +1,5 @@
 # HeaderRemover For COMP30027
-a very simple header remover , designed only for Dr.Ding's version, COMP30027ML, UOM 2022-SEM1
+a very simple header remover , designed only for slides COMP30027ML, UOM 2022-SEM1
 
 ### use:
 -> Place COMP30027 PDFs which you want to remove headers into the ```.\in``` folder ->\
