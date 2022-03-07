@@ -1,7 +1,7 @@
 # HeaderRemover For COMP30027
 a very simple header remover , designed only for Dr.Ding's version, COMP30027ML, UOM 2022-SEM1
 
-### using
+### use:
 -> Place COMP30027 PDFs which you want to remove headers into the ```.\in``` folder ->\
 -> check and install the dependencies ->\
 -> Run ```headerRemover.py```,\
@@ -16,7 +16,7 @@ a very simple header remover , designed only for Dr.Ding's version, COMP30027ML,
 -> Replace px with pointed color to blank \
 -> Combine processed images into new PDF.
 
-### dependencies
+### dependencies:
 please install the following dependencies before use:\
 Pillow, pathlib, pdf2image
 ```
