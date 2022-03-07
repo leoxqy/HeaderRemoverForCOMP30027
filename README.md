@@ -24,4 +24,10 @@ pip install pillow
 pip install pathlib
 pip install pdf2image
 ```
+
+### update:
+May dev a much cleverer CNN-based InkSaver in the future or when I am free.
+For enquiries or other ideas please contact
+```xinqiy@student.unimelb.edu.au```
+
 by Léo Xinqi Yu
