@@ -3,7 +3,7 @@ a very simple header remover , designed only for slides COMP30027ML, UOM 2022-SE
 
 ### use:
 -> Place COMP30027 PDFs which you want to remove headers into the ```.\in``` folder ->\
--> check and install the dependencies ->\
+-> Check and install the dependencies ->\
 -> Run ```headerRemover.py```,\
  Alternatively, you may specify customised input and output folder, preceded by ```-ipath``` and ```-opath``` flags:\
  e.g. ```headerRemover.py -ipath myInputFolder -opath myOutputFolder``` ->\
