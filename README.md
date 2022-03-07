@@ -13,7 +13,7 @@ a very simple header remover , designed only for slides COMP30027ML, UOM 2022-SE
 ### workflow:
 -> Convert PDF to images \
 -> Traverse harded-coded image area px by px \
--> Replace px with pointed color to blank \
+-> Replace the ones of specified color to blank \
 -> Combine processed images into new PDF.
 
 ### dependencies:
